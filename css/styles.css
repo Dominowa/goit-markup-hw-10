@@ -60,6 +60,16 @@ ul {
 }
 .section-title {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.section-doing {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
 }
 /* Hero */
 .hero-title {
@@ -68,4 +78,15 @@ ul {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+}
+
+/*button */
+.button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
 }
