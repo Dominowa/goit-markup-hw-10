@@ -1,0 +1,71 @@
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+}
+
+body {
+  background: #c9b9b9;
+  color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.02em;
+}
+
+ul {
+  list-style: none;
+}
+.logo {
+  color: var(--title-text-color);
+  font-family: Raleway, cursive;
+  letter-spacing: 0.03em;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+}
+.first-word {
+  color: var(--accent-color);
+  font-family: Raleway, cursive;
+  letter-spacing: 0.03em;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+}
+
+/* Site nav */
+
+.sait-nav .link {
+  color: var(--title-text-color);
+}
+
+.sait-nav .link:hover,
+.sait-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.mail:hover,
+.mail:focus {
+  color: var(--accent-color);
+}
+
+.mail {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.tel {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+}
+.section-title {
+  color: var(--title-text-color);
+}
+/* Hero */
+.hero-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
