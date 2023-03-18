@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #c9b9b9;
+  background: #ffffff;
   color: var(--primary-text-color);
   font-family: roboto, sans-serif;
   letter-spacing: 0.02em;
@@ -21,6 +21,7 @@ ul {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  text-decoration: none;
 }
 .first-word {
   color: var(--accent-color);
@@ -35,6 +36,10 @@ ul {
 
 .sait-nav .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
 }
 
 .sait-nav .link:hover,
@@ -51,12 +56,14 @@ ul {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.5;
+  text-decoration: none;
 }
 
 .tel {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.5;
+  text-decoration: none;
 }
 .section-title {
   color: var(--title-text-color);
@@ -89,4 +96,32 @@ ul {
   line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
+}
+
+.hero {
+  background-color: var(--title-text-color);
+}
+
+.section-team {
+  background-color: #f4f4fd;
+}
+
+.footer {
+  background-color: var(--title-text-color);
+}
+
+.logo-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f4f4fd;
+}
+
+.logo-footer {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
+  text-decoration: none;
 }
