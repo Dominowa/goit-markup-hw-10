@@ -2,10 +2,12 @@
   --primary-text-color: #434455;
   --title-text-color: #2e2f42;
   --accent-color: #4d5ae5;
+  --white: #ffffff;
+  --logo: #f4f4fd;
 }
 
 body {
-  background: #ffffff;
+  background: var(--white);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
 }
@@ -79,7 +81,7 @@ ul {
 }
 /* Hero */
 .hero-title {
-  color: #ffffff;
+  color: var(--white);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -88,7 +90,7 @@ ul {
 
 /*button */
 .button {
-  color: #ffffff;
+  color: var(--white);
   background-color: var(--accent-color);
   font-weight: 500;
   font-size: 16px;
@@ -102,7 +104,7 @@ ul {
 }
 
 .section-team {
-  background-color: #f4f4fd;
+  background-color: var(--logo);
 }
 
 .footer {
@@ -113,7 +115,7 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #f4f4fd;
+  color: var(--logo);
 }
 
 .logo-footer {
@@ -121,7 +123,7 @@ ul {
   font-size: 18px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #f4f4fd;
+  color: var(--logo);
   text-decoration: none;
 }
 
@@ -136,6 +138,6 @@ ul {
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
-  color: #ffffff;
+  color: var(--white);
   background-color: var(--accent-color);
 }
