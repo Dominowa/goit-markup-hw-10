@@ -125,3 +125,18 @@ ul {
   color: #f4f4fd;
   text-decoration: none;
 }
+
+.button-portfolio {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
