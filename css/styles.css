@@ -27,9 +27,6 @@ ul {
   font-style: normal;
 }
 
-.Studio {
-  color: var(--title-text-color);
-}
 .link:hover,
 .link:focus {
   color: var(--button);
@@ -180,17 +177,18 @@ ul {
 }
 
 .logog-link link {
+  color: var(--accent-color);
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
-  text-decoration: none;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .Studiog-logo link {
-   color: ;#f4f4fd
+  color: var(--logo);
 }
 
 .button-portfolio {
