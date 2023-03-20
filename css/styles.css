@@ -23,6 +23,10 @@ ul {
 .address {
   font-style: normal;
 }
+.link-h {
+  color: var(--button);
+  letter-spacing: 0.02em;
+}
 
 .Studio {
   color: var(--title-text-color);
