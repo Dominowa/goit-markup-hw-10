@@ -199,6 +199,8 @@ ul {
 }
 
 .button-portfolio {
+  color: var(--color-accent);
+  background-color: var(--color-dgs);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -210,6 +212,6 @@ ul {
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
-  color: var(--color-button);
-  background-color: var(--color-dgs);
+  color: var(--color-white);
+  background-color: var(--color-button);
 }
