@@ -93,10 +93,10 @@ ul {
 }
 
 /*button */
-.button:hover,
-.button:focus {
+/* .button:hover,.button:focus {
   color: var(--white);
-  background-color: var(--button);
+  background-color: var(--button); */
+
 }
 .button {
   color: var(--white);
