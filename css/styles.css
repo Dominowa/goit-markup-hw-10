@@ -32,6 +32,10 @@ ul {
   text-decoration: none;
 }
 
+.studio-logo {
+  color: var(--color-title-text);
+}
+
 .address {
   font-style: normal;
 }
