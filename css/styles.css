@@ -99,6 +99,8 @@ ul {
   background-color: var(--button);
 }
 .button {
+  color: var(--white);
+  background-color: var(--accent-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
