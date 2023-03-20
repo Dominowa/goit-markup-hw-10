@@ -17,6 +17,10 @@ body {
 ul {
   list-style: none;
 }
+
+.section {
+  letter-spacing: 0.02em;
+}
 .text-transform {
   color: var(--title-text-color);
   font-family: Raleway, sans-serif;
