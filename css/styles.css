@@ -223,3 +223,10 @@ ul {
   color: var(--color-white);
   background-color: var(--color-button);
 }
+.main-head link {
+  color: var(--color-title-text);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
