@@ -23,24 +23,14 @@ ul {
 .address {
   font-style: normal;
 }
-.link-h {
-  color: var(--button);
-  letter-spacing: 0.02em;
-}
 
 .Studio {
   color: var(--title-text-color);
 }
 
 .link {
-  color: var(--title-text-color);
-  font-family: Raleway, sans-serif;
-  letter-spacing: 0.03em;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  text-decoration: none;
-  text-transform: uppercase;
+  color: var(--button);
+  letter-spacing: 0.02em;
 }
 .first-word {
   color: var(--accent-color);
