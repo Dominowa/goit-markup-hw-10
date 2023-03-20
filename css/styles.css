@@ -11,15 +11,10 @@ body {
   background: var(--white);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
-  letter-spacing: 0.02em;
 }
 
 ul {
   list-style: none;
-}
-
-.section {
-  letter-spacing: 0.02em;
 }
 .text-transform {
   color: var(--title-text-color);
