@@ -23,6 +23,15 @@ ul {
   list-style: none;
 }
 
+.header-logo {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
 .address {
   font-style: normal;
 }
