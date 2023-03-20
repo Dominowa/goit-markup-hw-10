@@ -1,15 +1,15 @@
 :root {
-  --primary-text-color: #434455;
-  --title-text-color: #2e2f42;
-  --accent-color: #4d5ae5;
-  --white: #ffffff;
-  --logo: #f4f4fd;
-  --button: #404bbf;
+  --color-primary-text: #434455;
+  --color-title-text: #2e2f42;
+  --color-accent: #4d5ae5;
+  --color-white: #ffffff;
+  --color-logo: #f4f4fd;
+  --color-button: #404bbf;
 }
 
 body {
-  background: var(--white);
-  color: var(--primary-text-color);
+  background: var(--color-white);
+  color: var(--color-primary-text);
   font-family: Roboto, sans-serif;
 }
 .list {
@@ -38,11 +38,11 @@ ul {
 
 .link:hover,
 .link:focus {
-  color: var(--button);
+  color: var(--color-button);
 }
 
 .logo-link {
-  color: var(--accent-color);
+  color: var(--color-accent);
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -52,7 +52,7 @@ ul {
   text-decoration: none;
 }
 .first-word {
-  color: var(--accent-color);
+  color: var(--color-accent);
   font-family: Raleway, cursive;
   letter-spacing: 0.03em;
   font-weight: 800;
@@ -63,7 +63,7 @@ ul {
 /* Site nav */
 
 .sait-nav .link {
-  color: var(--title-text-color);
+  color: var(--color-title-text);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -72,16 +72,16 @@ ul {
 
 .sait-nav .link:hover,
 .sait-nav .link:focus {
-  color: var(--accent-color);
+  color: var(--color-accent);
 }
 
 .mail:hover,
 .mail:focus {
-  color: var(--button);
+  color: var(--color-button);
 }
 
 .mail {
-  color: var(--primary-text-color);
+  color: var(--color-primary-text);
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
@@ -89,13 +89,13 @@ ul {
 }
 
 .tel {
-  color: var(--primary-text-color);
+  color: var(--color-primary-text);
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
 }
 .section-title {
-  color: var(--title-text-color);
+  color: var(--color-title-text);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -116,11 +116,11 @@ ul {
 }
 
 .list-img {
-  background-color: var(--white);
+  background-color: var(--color-white);
 }
 
 .section-doing {
-  color: var(--title-text-color);
+  color: var(--color-title-text);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
@@ -131,7 +131,7 @@ ul {
 }
 /* Hero */
 .hero-title {
-  color: var(--white);
+  color: var(--color-white));
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -142,12 +142,12 @@ ul {
 /*button */
 .button:hover,
 .button:focus {
-  color: var(--white);
-  background-color: var(--button);
+  color: var(--color-white);
+  background-color: var(--color-button);
 }
 .button {
-  color: var(--white);
-  background-color: var(--accent-color);
+  color: var(--color-white);
+  background-color: var(--color-accent);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -158,27 +158,27 @@ ul {
 }
 
 .hero {
-  background-color: var(--title-text-color);
+  background-color: var(--color-title-text);
 }
 
 .section-team {
-  background-color: var(--logo);
+  background-color: var(--color-logo);
   letter-spacing: 0.02em;
 }
 
 .footer {
-  background-color: var(--title-text-color);
+  background-color: var(--color-title-text);
 }
 
 .logo-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--logo);
+  color: var(--color-logo);
 }
 
 .logog-footer {
-  color: var(--accent-color);
+  color: var(--color-accent);
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -189,11 +189,11 @@ ul {
 }
 
 .logo-span-studio {
-  color: var(--logo);
+  color: var(--color-logo);
 }
 
 .button-portfolio {
-  color: var(--accent-color);
+  color: var(--color-accent);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -205,6 +205,6 @@ ul {
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
-  color: var(--white);
-  background-color: var(--button);
+  color: var(--color-white);
+  background-color: var(--color-button);
 }
