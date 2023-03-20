@@ -17,7 +17,7 @@ body {
 ul {
   list-style: none;
 }
-.logo {
+.text-transform {
   color: var(--title-text-color);
   font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
@@ -122,7 +122,7 @@ ul {
   color: var(--logo);
 }
 
-.logo-footer {
+.text-transform-footer {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.2;
