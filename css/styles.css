@@ -28,7 +28,7 @@ ul {
   color: var(--color-button);
 }
 
-.header-logo link {
+.header-logo {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
