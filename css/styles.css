@@ -23,6 +23,11 @@ ul {
   list-style: none;
 }
 
+.header-logo link:hover,
+.header-logo link:focus {
+  color: var(--color-button);
+}
+
 .header-logo link {
   color: var(--title-text-color);
   font-weight: 500;
