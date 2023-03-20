@@ -23,8 +23,8 @@ ul {
   list-style: none;
 }
 
-.header-logo:hover,
-.header-logo:focus {
+.header-link:hover,
+.header-link:focus {
   color: var(--color-button);
 }
 
