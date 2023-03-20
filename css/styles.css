@@ -25,6 +25,7 @@ ul {
   font-size: 18px;
   line-height: 1.17;
   text-decoration: none;
+  text-transform: uppercase;
 }
 .first-word {
   color: var(--accent-color);
@@ -129,6 +130,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--logo);
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .button-portfolio {
