@@ -113,6 +113,10 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.About-company link {
+  line-height: 1.5;
+}
+
 .list-img {
   background-color: var(--white);
 }
