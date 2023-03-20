@@ -16,7 +16,7 @@ body {
 ul {
   list-style: none;
 }
-.text-transform {
+.link {
   color: var(--title-text-color);
   font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
