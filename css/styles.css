@@ -28,10 +28,6 @@ ul {
   color: var(--title-text-color);
 }
 
-.link-list {
-  letter-spacing: 0.02em;
-  color: var(--button);
-}
 .link {
   color: var(--title-text-color);
   font-family: Raleway, sans-serif;
