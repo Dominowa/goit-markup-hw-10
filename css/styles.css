@@ -40,11 +40,6 @@ ul {
   font-style: normal;
 }
 
-.link:hover,
-.link:focus {
-  color: var(--color-button);
-}
-
 .link-header {
   color: var(--color-title-text);
   font-weight: 500;
@@ -54,7 +49,7 @@ ul {
   text-decoration: none;
 }
 
-.logo-link link {
+.logo-link {
   color: var(--color-accent);
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -190,7 +185,7 @@ ul {
   color: var(--color-logo);
 }
 
-.logog-footer link {
+.logog-footer {
   color: var(--color-accent);
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
