@@ -20,10 +20,6 @@ body {
   text-decoration: none;
 }
 
-ul {
-  list-style: none;
-}
-
 .header-link:hover,
 .header-link:focus {
   color: var(--color-button);
