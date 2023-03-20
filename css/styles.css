@@ -76,6 +76,10 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.section {
+  letter-spacing: 0.02em;
+}
+
 .section-doing {
   color: var(--title-text-color);
   font-weight: 700;
@@ -120,6 +124,7 @@ ul {
 
 .section-team {
   background-color: var(--logo);
+  letter-spacing: 0.02em;
 }
 
 .footer {
