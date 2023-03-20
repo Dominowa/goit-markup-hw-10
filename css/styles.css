@@ -12,6 +12,9 @@ body {
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
 }
+.Web {
+  color: var(--accent-color);
+}
 
 ul {
   list-style: none;
