@@ -95,7 +95,8 @@ ul {
 /*button */
 .button:hover,
 .button:focus {
-  background-color: var(--accent-color);
+  color: var(--white);
+  background-color: var(--button);
 }
 .button {
   font-weight: 500;
