@@ -4,12 +4,14 @@
   --accent-color: #4d5ae5;
   --white: #ffffff;
   --logo: #f4f4fd;
+  --button: #404bbf;
 }
 
 body {
   background: var(--white);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
 }
 
 ul {
@@ -91,12 +93,14 @@ ul {
 /*button */
 .button {
   color: var(--white);
-  background-color: var(--accent-color);
+  background-color: var(--button);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 .hero {
@@ -135,9 +139,11 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
+  cursor: pointer;
+  font-family: inherit;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
   color: var(--white);
-  background-color: var(--accent-color);
+  background-color: var(--button);
 }
