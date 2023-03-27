@@ -204,11 +204,14 @@ body {
 
 .hero {
   background-color: var(--color-title-text);
+  padding: 188px 0;
+  text-align: center;
 }
 
 .section-team {
   background-color: var(--color-logo);
-  letter-spacing: 0.02em;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .footer {
@@ -266,15 +269,12 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-top: 32px;
-  padding: 0px 16px;
+  margin-bottom: 8px;
 }
 
 .main-p {
   color: var(--color-primary-text);
   line-height: 1.5;
-  padding: 0px 16px;
-  margin-bottom: 32px;
 }
 /* address */
 .address-list {
@@ -284,12 +284,12 @@ body {
   display: flex;
   align-items: center;
   margin-right: auto;
+  padding: 24px;
 }
 .header-list {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px;
 }
 
 .header-container {
@@ -297,70 +297,62 @@ body {
   align-items: center;
 }
 
-.hero-container {
-  text-align: center;
-  padding-top: 188px;
-}
-
 .hero-bt {
   padding: 16px 32px 16px 32px;
   margin-top: 48px;
-  margin-bottom: 188px;
-  border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .about-company {
   display: flex;
-  gap: 22px;
-  margin-top: 120px;
-  margin-bottom: 120px;
+  gap: 24px;
+}
+.about-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .wedo-container {
   display: flex;
   gap: 24px;
   margin-top: 72px;
-  margin-bottom: 120px;
   justify-content: center;
+}
+.section-wedo {
+  padding-bottom: 120px;
 }
 .list-conteiner {
   display: flex;
   gap: 24px;
   justify-content: center;
   margin-top: 72px;
-  padding-bottom: 120px;
 }
-.doing-conteiner {
-  padding-top: 120px;
-}
-.footer-conteiner {
-  padding-bottom: 100px;
-  padding-top: 100px;
-}
+
 .card-conteiner {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   padding: 0px 0px 32px;
+  padding-top: 32px;
 }
 .our-container {
   display: flex;
   justify-content: center;
-  margin-top: 32px;
 }
+.ft-container {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
 .button-container {
   display: flex;
   gap: 24px;
   justify-content: center;
   align-items: center;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .img-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
-  padding-top: 48px;
-  margin-bottom: 120px;
+  gap: 48px 24px;
 }
 .port-canteiner {
   border: 1px solid #e7e9fc;
@@ -368,4 +360,12 @@ body {
 .port-canteiner:hover,
 .port-canteiner:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-pf {
+  border-bottom: 1px solid #e7e9fc;
+}
+.section-bt {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
